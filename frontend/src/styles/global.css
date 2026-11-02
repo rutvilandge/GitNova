@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+:root {
+  font-family: "Geist", Arial, sans-serif;
+  color: #f7f4ef;
+  background: #111019;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  --bg: #111019;
+  --panel: #191722;
+  --line: rgba(255, 255, 255, 0.1);
+  --muted: #9b98a8;
+  --violet: #6d4aff;
+  --lavender: #b8a5ff;
+  --cream: #f7f4ef;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+button,
+input {
+  font: inherit;
+}
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button {
+  color: inherit;
+}
+::selection {
+  background: #6d4aff;
+  color: white;
+}
