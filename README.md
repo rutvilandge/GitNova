@@ -3,34 +3,6 @@
 > **Understand every commit. Review every change. Ship with confidence.**
 GITNOVA is a GitHub intelligence workspace for repository-aware pull request review, codebase exploration, change impact analysis, and developer analytics. This repository contains a React web application and a Java API in one workspace. The interface uses a deep charcoal and electric violet design system, with original repository visualizations and product illustrations. The authenticated application is designed to use the signed-in user's GitHub authorization and real repository data. Marketing previews on the public landing page are illustrative. They are not live repository data.
 
-## Visual overview
-
-The landing-page image below is a local product preview. Its repository map and interface copy are illustrative; they do not represent live GitHub analytics.
-
-<p align="center">
-  <img src="landing-preview.png" alt="GITNOVA landing page with its charcoal and violet identity and repository dependency visualization" width="100%" />
-</p>
-
-The sign-in experience uses the same visual identity and an original repository-context illustration:
-
-<p align="center">
-  <img src="frontend/auth-preview.png" alt="GITNOVA sign-in screen preview" width="100%" />
-</p>
-
-The product-story preview demonstrates the review, repository chat, dependency graph, and change-impact presentation. These are illustrative UI demonstrations, not live repository results:
-
-<p align="center">
-  <img src="story-preview.png" alt="GITNOVA product-story preview showing an illustrative pull request review interface" width="100%" />
-</p>
-
-The saved dashboard preview below was captured while its API was unavailable. “Failed to fetch” is the disconnected state; it is not analytics data. The current Vercel deployment is frontend-only: no public Java backend is connected, so sign-in and repository-backed dashboard actions cannot complete there yet.
-
-<p align="center">
-  <img src="frontend/dashboard-preview.png" alt="GITNOVA dashboard in its disconnected state while no backend API is configured" width="100%" />
-</p>
-
-The system and request-flow diagrams below describe the actual project architecture. Mermaid diagrams are rendered on GitHub; the architecture is documentation, not a claim that the production backend is deployed.
-
 
 ## Contents
 
