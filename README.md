@@ -31,8 +31,6 @@ The saved dashboard preview below was captured while its API was unavailable. â€
 
 The system and request-flow diagrams below describe the actual project architecture. Mermaid diagrams are rendered on GitHub; the architecture is documentation, not a claim that the production backend is deployed.
 
-## Project status
-Implementation work follows the fourteen-phase GITNOVA roadmap. The detailed verification ledger lives in [docs/roadmap-status.md](docs/roadmap-status.md). The current implementation is not a claim that every roadmap phase is finished. Frontend lint, production build, and the current frontend tests pass locally. The backend test suite passes locally after the Phase 13 authentication changes. The local Spring API has been restarted with the latest backend code and connected to the configured Neon database. The API health endpoint returns `UP` in the local environment. Real authenticated RAG indexing and chat have not yet been verified end to end in the user's browser session. The user's browser reported `Bad Gateway` in Developer Intelligence and Compare. Those authenticated upstream calls still need retesting after GitHub is reconnected. The existing frontend deployment is [https://frontend-one-chi-15.vercel.app](https://frontend-one-chi-15.vercel.app); it is frontend-only. No public Java API or worker is connected, so API-backed dashboard actions are not live on that deployment.
 
 ## Contents
 
